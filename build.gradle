@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'application' // Optional for running the app
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Add your project dependencies here
+    testImplementation 'junit:junit:4.13.2' // Example dependency for testing
+}
+
+application {
+    mainClass = 'com.example.MainClass' // Replace with your main class's fully qualified name
+}
